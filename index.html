@@ -10,37 +10,47 @@
 </head>
 <body class="container-fluid">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md bg-dark bg-gradient navbar-dark">
         <div class="container-xl">
-            <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-secondary">#LOGO</span>
-            </a>
+            <div>
+                <a class="navbar-brand" href="#intro">
+                  <img src="images/SociaBrander.jpg" alt="Avatar Logo" style="width:80px;" class="rounded-pill"> 
+                </a>
+            </div>
 
             <!-- toggle button for navbar in mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- navbar links -->
-            <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav" role="navigation">
+                <ul class="navbar-nav nav-pills fw-bolder">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="#" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Careers</a>
+                        <a href="#" class="nav-link">CAREERS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICES</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">CAC Registration</a></li>
+                            <li><a class="dropdown-item" href="#">EFCC SCUML</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">TRADE-MARK Registration</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Live Support</a>
+                        <a href="#" class="nav-link">CUSTOMER SUPPORT</a>
                     </li>
                 </ul>
             </div>
-            <a href="#" class="btn btn-success justify-content-end ms-2 d-none d-md-inline">Register</a>
+            <!-- Sign up -->
+            <a href="#" class="btn btn-lg text-light bg-primary bg-gradient justify-content-end ms-2 d-none d-md-inline rounded-pill fw-bolder">REGISTER</a>
         </div>
     </nav>
+    
     <!-- main page -->
     <section id="intro">
         <div class="container-lg">
@@ -50,7 +60,7 @@
                         <div class="display-5">WELCOME TO SOCIABRAND</div>
                     </h1>
                     <p class="lead bg-secondary text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#" class="btn btn-success btn-lg">Register</a>
+                    <a href="#" class="btn btn-success btn-lg rounded-pill">Register</a>
                 </div>
             </div>
         </div>

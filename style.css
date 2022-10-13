@@ -1,0 +1,7 @@
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #87bdd8;
+  }
+.navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+    transition: all 0.5s;
+  }
